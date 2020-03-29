@@ -31,15 +31,15 @@ Já fiz o inicio do projeto e tenho uma funcionalidade básica do blog. Os próx
 - [x] Converter posts em JSON para MD
 - [x] Iniciar projeto Gatsby
 - [x] Criar repositório
-- [] Gerar páginas de posts
-- [] Listar postagens com link próprio
-- [] Criar componentes estilizados para cada elemento
-- [] Atrelar imagens do backup aos posts
-- [] Verificar paginação com lazy loading
-- [] Checar itens de SEO
-- [] Checar performance
-- [] Deploy no Netlify
-- [] Transferência de DNS
+- [ ] Gerar páginas de posts
+- [ ] Listar postagens com link próprio
+- [ ] Criar componentes estilizados para cada elemento
+- [ ] Atrelar imagens do backup aos posts
+- [ ] Verificar paginação com lazy loading
+- [ ] Checar itens de SEO
+- [ ] Checar performance
+- [ ] Deploy no Netlify
+- [ ] Transferência de DNS
 
 
 ## 💫 Deploy
