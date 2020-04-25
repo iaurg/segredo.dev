@@ -56,6 +56,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 100%;
     font-family:Arial, Helvetica, sans-serif;
     font-variant-ligatures: normal;
+    background-color:#0F0F0F;
   }
   img {
     display: block;
