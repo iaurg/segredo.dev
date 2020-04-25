@@ -1,6 +1,6 @@
 ---
 title: "Bold Mage"
-cover: "./images/hello-world.png"
+cover: "hello-world.png"
 date: "2017-01-01"
 category: "tech"
 tags:
