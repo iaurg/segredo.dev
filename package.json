@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-advanced",
-  "description": "GatsbyJS starter that includes examples for advanced use cases.",
-  "version": "1.1.0",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "name": "segredo-dev",
+  "description": "Descobertas que faço e coisas que aprendo",
+  "version": "1.0.0",
+  "author": "Italo A <italoaurelior@gmail.com>",
   "dependencies": {
     "gatsby": "^2.20.12",
     "gatsby-image": "^2.3.1",
@@ -37,22 +37,15 @@
     "react-helmet": "^5.2.1",
     "react-share": "^4.1.0",
     "react-twitter-widgets": "^1.7.1",
+    "styled-components": "^5.1.0",    
     "url-join": "^4.0.0"
   },
   "devDependencies": {
     "cli-glob": "^0.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-config-prettier": "^6.10.1",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.19.0",
     "gh-pages": "^2.2.0",
-    "prettier": "^2.0.2",
     "remark-cli": "^8.0.0",
     "remark-preset-lint-recommended": "^4.0.0",
     "stylelint": "^13.2.1",
-    "stylelint-config-prettier": "^8.0.1",
     "stylelint-config-standard": "^20.0.0",
     "write-good": "^1.0.1"
   },

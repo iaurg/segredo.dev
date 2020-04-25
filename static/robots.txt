@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: */tags/
+Disallow: */categorias/
+
+sitemap: https://segredo.dev/sitemap.xml

@@ -164,7 +164,7 @@ exports.createPages = async ({ graphql, actions }) => {
   // Create category pages
   categorySet.forEach(category => {
     createPage({
-      path: `/categories/${_.kebabCase(category)}/`,
+      path: `/categorias/${_.kebabCase(category)}/`,
       component: categoryPage,
       context: { category }
     })

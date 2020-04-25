@@ -115,7 +115,7 @@ module.exports = {
         setup (ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata
           ret.allMarkdownRemark = ref.query.allMarkdownRemark
-          ret.generator = 'GatsbyJS Advanced Starter'
+          ret.generator = 'Segredo Dev'
           return ret
         },
         query: `
@@ -164,12 +164,12 @@ module.exports = {
                     timeToRead
                     fields {
                       slug
-                      date
+                      date_published
                     }
                     frontmatter {
                       title
                       cover
-                      date
+                      date_published
                       category
                       tags
                     }

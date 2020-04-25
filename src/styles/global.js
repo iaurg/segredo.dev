@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components'
-import 'typeface-inter'
 
 const GlobalStyles = createGlobalStyle`
   /* http://meyerweb.com/eric/tools/css/reset/
@@ -55,7 +54,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     line-height: 1;
     font-size: 100%;
-    font-family:Inter, Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-variant-ligatures: normal;
   }
   img {

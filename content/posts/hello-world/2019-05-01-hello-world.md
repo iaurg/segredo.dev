@@ -1,9 +1,12 @@
 ---
-title: Hello World
-slug: hello-world
-date_published: 2019-05-02T02:01:17.000Z
-date_updated: 2020-03-14T14:22:40.000Z
-thumbnail: "./images/hello-world.png"
+title: "Bold Mage"
+cover: "./images/hello-world.png"
+date: "2017-01-01"
+category: "tech"
+tags:
+    - programming
+    - stuff
+    - other
 ---
 
 Olá, tudo bem?
