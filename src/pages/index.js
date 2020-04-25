@@ -1,6 +1,6 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/Layout"
+import React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../components/Layout'
 export default ({ data }) => {
   console.log(data)
   return (
@@ -10,7 +10,7 @@ export default ({ data }) => {
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id} style={{ marginTop: 30 }}>
             <h3>
-              {node.frontmatter.title}{" "}
+              {node.frontmatter.title}{' '}
               <span>— {node.frontmatter.date_published}</span>
             </h3>
             <p>{node.excerpt}</p>

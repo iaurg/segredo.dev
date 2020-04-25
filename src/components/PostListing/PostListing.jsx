@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react'
+import { Link } from 'gatsby'
 
 class PostListing extends React.Component {
-  getPostList() {
-    const postList = [];
+  getPostList () {
+    const postList = []
     this.props.postEdges.forEach(postEdge => {
       postList.push({
         path: postEdge.node.fields.slug,
@@ -13,24 +13,25 @@ class PostListing extends React.Component {
         date: postEdge.node.fields.date,
         excerpt: postEdge.node.excerpt,
         timeToRead: postEdge.node.timeToRead
-      });
-    });
-    return postList;
+      })
+    })
+    return postList
   }
 
-  render() {
-    const postList = this.getPostList();
+  render () {
+    const postList = this.getPostList()
     return (
       <div>
         {/* Your post list here. */
-        postList.map(post => (
-          <Link to={post.path} key={post.title}>
-            <h1>{post.title}</h1>
-          </Link>
-        ))}
+          postList.map(post => (
+            <Link to={post.path} key={post.title}>
+              <h1>{post.title}</h1>
+            </Link>
+          ))
+        }
       </div>
-    );
+    )
   }
 }
 
-export default PostListing;
+export default PostListing

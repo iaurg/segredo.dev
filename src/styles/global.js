@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components"
-import "typeface-inter"
+import { createGlobalStyle } from 'styled-components'
+import 'typeface-inter'
 
 const GlobalStyles = createGlobalStyle`
   /* http://meyerweb.com/eric/tools/css/reset/
