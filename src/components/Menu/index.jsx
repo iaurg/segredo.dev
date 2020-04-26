@@ -7,10 +7,10 @@ export default function Menu () {
   return (
     <S.Nav>
       <S.Menu>
-        <S.MenuItem><Link to='/'><FiHome /></Link></S.MenuItem>
-        <S.MenuItem><Link to='/blog'><FiFileText /></Link></S.MenuItem>
-        <S.MenuItem><Link to='/sobre'><FiUser /></Link></S.MenuItem>
-        <S.MenuItem><Link to='/contato'><FiMail /></Link></S.MenuItem>
+        <S.MenuItem><Link to='/' activeClassName='active'><FiHome /></Link></S.MenuItem>
+        <S.MenuItem><Link to='/blog' activeClassName='active'><FiFileText /></Link></S.MenuItem>
+        <S.MenuItem><Link to='/sobre' activeClassName='active'><FiUser /></Link></S.MenuItem>
+        <S.MenuItem><Link to='/contato' activeClassName='active'><FiMail /></Link></S.MenuItem>
       </S.Menu>
     </S.Nav>
   )

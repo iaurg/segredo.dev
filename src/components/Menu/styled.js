@@ -22,6 +22,22 @@ export const MenuItem = styled.li`
     font-size: 23px;
     height: 55px;
     width: 55px;  
+    &.active {
+      ::after
+      {
+        content:'';
+        color: cadetblue;
+        text-decoration: underline;
+        width:8px;
+        height:8px;
+        background-color:#fff;
+        border-radius:10px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        bottom: -30%;
+      }
+    }
     &:hover {
       background: #4c4c4c;
     }
