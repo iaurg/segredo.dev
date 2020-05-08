@@ -17,7 +17,6 @@ const Link = styled.a`
 export default function SocialPersonal () {
   return (
     <Block>
-      {console.log(config)}
       <Link href={config.userLinks[1].url} target='_blank' rel='noopener noreferrer'>
         <FiTwitter />
       </Link>
