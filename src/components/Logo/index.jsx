@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from './images/logo-iaurg.png'
+import logo from '../../../static/logos/logo-iaurg.png'
 import * as S from './styled'
 
 export default function Logo () {
